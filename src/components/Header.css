@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 10vh;
+  line-height: 10vh;
+  color: white;
+  position: relative;
+  z-index: 999;
+  font-weight: 900;
+  font-size: 36px;
+  font-family: 'Young Serif', serif;
+  background-color: rgb(182, 21, 21);
+}
+
+.headerContainer header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appName {
+  display: flex;
+  align-items: center;
+}
+
+.appName span {
+  margin-right: 7px;
+}

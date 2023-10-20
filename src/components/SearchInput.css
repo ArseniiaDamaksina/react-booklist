@@ -1,0 +1,26 @@
+.searchInput {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.searchInput input {
+  border: 1px solid rgb(182, 21, 21);
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  padding: 5px;
+  padding-right: 25px; /* adjust the padding to make space for the icon */
+}
+
+.searchInput svg {
+  position: absolute;
+  right: 9px;
+  top: 60%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
