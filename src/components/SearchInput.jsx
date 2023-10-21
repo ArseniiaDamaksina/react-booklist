@@ -15,7 +15,7 @@ const SearchInput = ({ placeholder, value, onChange, onIconClick }) => {
         />
         <FontAwesomeIcon
           icon={faXmark}
-          style={{ color: "#B61515", fontSize: "16px" }}
+          style={{ color: "#B61515", fontSize: "25px" }}
           onClick={() => onIconClick("")}
         />
       </div>

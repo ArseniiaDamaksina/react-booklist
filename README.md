@@ -1,12 +1,14 @@
-# Booklist Project
+# Booklists Project
 
-Welcome to the Booklist project! This application allows users to manage their reading list by adding books to either a "To Read" or "Read" list. Users can also rate the books they have read, search for specific titles or authors, and sort the lists alphabetically or by rating.
+[Booklists Website](https://sprightly-cannoli-5694da.netlify.app/)
+
+Welcome to the Booklists project! This application allows users to manage their reading list by adding books to either a "To Read" or "Read" list. Users can also rate the books they have read, search for specific titles or authors, and sort the lists alphabetically or by rating.
 
 ## Project Overview
 
 ### Introduction
 
-The Booklist project is designed to help users organize their reading materials effectively. By allowing users to categorize books into "To Read" or "Read" lists, along with the option to add ratings, the application aims to streamline the reading experience.
+The Booklists project is designed to help users organize their reading materials effectively. By allowing users to categorize books into "To Read" or "Read" lists, along with the option to add ratings, the application aims to streamline the reading experience.
 
 ### Features
 
@@ -17,7 +19,7 @@ The Booklist project is designed to help users organize their reading materials 
 
 ### Technologies Used
 
-The Booklist project is built using the following technologies:
+The Booklists project is built using the following technologies:
 
 - React
 - react-router-dom library

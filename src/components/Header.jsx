@@ -5,10 +5,11 @@ import { faBook } from "@fortawesome/free-solid-svg-icons";
 const Header = ({ onClick }) => {
   return (
     <div className="headerContainer">
+      <div className="emptyHeader"></div>
       <header>
         <div className="appName" onClick={onClick}>
-          <span>Boklists</span>
-          <FontAwesomeIcon icon={faBook} style={{ color: "#ffffff", fontSize: "28px" }} />
+          <span>Booklists</span>
+          <FontAwesomeIcon icon={faBook} style={{ color: "#ffffff", fontSize: "44px" }} />
         </div>
         <span onClick={onClick}>Read Baby Read!</span>
       </header>

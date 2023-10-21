@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDownAZ, faStar } from "@fortawesome/free-solid-svg-icons";
 
@@ -132,6 +131,7 @@ const BooklistsPage = () => {
     <div className="mainContainer">
       <Header onClick={handleNavigate} />
       <div className="filtersContainer">
+        <div className="empty"></div>
         <div className="filtersNav">
           <div className="inputsContainer">
             <div className="searchContainer">

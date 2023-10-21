@@ -20,10 +20,10 @@
 }
 
 .modalContent {
-  padding: 1rem;
+  padding: 1.5rem 2rem 2.4rem 2rem;
   border-radius: 0.5rem;
   background-color: rgb(255, 238, 161);
-  width: 50%;
+  width: 51%;
   transform: scale(0.9);
   transition: transform 400ms;
 }
@@ -32,4 +32,16 @@
   transform: scale(1);
   position: absolute;
   z-index: 10;
+}
+
+.modalContent h2 {
+  font-size: 30px;
+}
+
+.modalContent h3 {
+  font-size: 25px;
+}
+
+.modalContent ul {
+  font-size: 22px;
 }

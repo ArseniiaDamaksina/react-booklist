@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { Rating } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -36,7 +35,7 @@ const BookCard = ({
         <div className="closeIconDiv">
           <FontAwesomeIcon
             icon={faXmark}
-            style={{ color: "#B61515", fontSize: "16px" }}
+            style={{ color: "#B61515", fontSize: "20px" }}
             onClick={() => {
               setModalActive(false);
             }}
@@ -45,21 +44,21 @@ const BookCard = ({
         <div className="modalWindow">
           <img src={imgSrc} alt={title} />
           <div className="modalContent">
-            <h3>
+            <h2>
               <span style={{ color: "#B61515" }}>Title: </span>
               {title}
-            </h3>
-            <h4>
+            </h2>
+            <h3>
               <span style={{ color: "#B61515" }}>Author: </span>
               {author}
-            </h4>
-            <h4>
+            </h3>
+            <h3>
               <span style={{ color: "#B61515" }}>Languages: </span>
               {languages}
-            </h4>
-            <h4>
+            </h3>
+            <h3>
               <span style={{ color: "#B61515" }}>Subjects: </span>
-            </h4>
+            </h3>
             <ul>
               {subjects.map((subject, index) => (
                 <li key={index}>{subject}</li>
@@ -76,15 +75,15 @@ const BookCard = ({
         }}
       />
       <div className="titleDiv">
-        <h3>{title}</h3>
+        <h2>{title}</h2>
       </div>
-      <h5>{author}</h5>
+      <h3>{author}</h3>
       {read ? (
         <div className="ratingContainer">
           <Rating
             name="simple-controlled"
             value={ratingNumber}
-            size="small"
+            size="large"
             onChange={(event, newValue) => {
               setRatingNumber(newValue);
               onRatingClick(id, newValue);
